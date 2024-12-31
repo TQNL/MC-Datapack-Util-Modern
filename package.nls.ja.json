@@ -22,7 +22,7 @@
     "mcdutil.config.createDatapackTemplate.customTemplate.generates.type": "ファイルかフォルダか",
     "mcdutil.config.createDatapackTemplate.customTemplate.label": "選択欄で表示される名前",
     "mcdutil.config.createDatapackTemplate.customTemplate.picked": "デフォルトで選択されてるか否か (デフォルト: false)",
-    "mcdutil.config.createDatapackTemplate.defaultFolder": "`advancements/`, `loot_tables/` 等のテンプレートを選択画面に表示するか否か",
+    "mcdutil.config.createDatapackTemplate.defaultFolder": "`advancement/`, `loot_table/` 等のテンプレートを選択画面に表示するか否か",
     "mcdutil.config.createDatapackTemplate.defaultLoadAndTick": "`#load`と`#tick`のテンプレートを選択画面に表示するか否か",
     "mcdutil.config.createDatapackTemplate.defaultVanillaData": "vanillaの`tags/~`のテンプレートを選択画面に表示するか否か",
     "mcdutil.config.createFile.fileTemplate": "**データパックファイルを作成する**: ファイルの生成時に記載されている内容 (ファイル種毎に設定が可能です)",

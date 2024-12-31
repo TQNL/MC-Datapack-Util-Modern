@@ -41,7 +41,7 @@
     "mcdutil.config.env.dataVersion": "使用的原版資料版本",
     "mcdutil.config.createDatapackTemplate.defaultVanillaData": "是否在選擇畫面上顯示原版 `tags/~` 模板",
     "mcdutil.config.createDatapackTemplate.defaultLoadAndTick": "是否在選擇畫面上顯示 `#load` 和 `#tick` 模板",
-    "mcdutil.config.createDatapackTemplate.defaultFolder": "是否在選擇畫面上顯示 `advancements/` 和 `loot_tables/` 等的模板",
+    "mcdutil.config.createDatapackTemplate.defaultFolder": "是否在選擇畫面上顯示 `advancement/` 和 `loot_table/` 等的模板",
     "mcdutil.config.createDatapackTemplate.customTemplate.generates.content-str": "字串（基本上一項會被解釋為一行）",
     "mcdutil.config.createDatapackTemplate.customTemplate.generates.content-obj": "物件的值已按原樣儲存到檔案中。",
     "mcdutil.config.createDatapackTemplate.customTemplate.generates.append": "如果目標已在JSON中存在，則將元素新增到該鍵。",
