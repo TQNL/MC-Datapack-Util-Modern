@@ -1,149 +1,65 @@
-![Banner](https://raw.githubusercontent.com/ChenCMD/MC-Datapack-Utility/master/images/banner.png)
+# mc-datapack-util-modern README
 
-[![license](https://img.shields.io/github/license/ChenCMD/MC-Datapack-Utility)](https://github.com/ChenCMD/MC-Datapack-Utility/blob/master/LICENSE)
-[![Version](https://img.shields.io/visual-studio-marketplace/v/chencmd.mc-datapack-utility?logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=chencmd.mc-datapack-utility)
-[![LastUpdate](https://img.shields.io/visual-studio-marketplace/last-updated/chencmd.mc-datapack-utility?logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=chencmd.mc-datapack-utility)
-[![Download](https://img.shields.io/visual-studio-marketplace/d/chencmd.mc-datapack-utility?logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=chencmd.mc-datapack-utility)
-[![Install](https://img.shields.io/visual-studio-marketplace/i/chencmd.mc-datapack-utility?logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=chencmd.mc-datapack-utility)
-[![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.carloscuesta.me/)
+This is the README for your extension "mc-datapack-util-modern". After writing up a brief description, we recommend including the following sections.
 
-English / [日本語](https://github.com/ChenCMD/MC-Datapack-Utility/blob/master/README_ja.md)
+## Features
 
-This extension provides several useful features for Datapack development.
+Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
-- [Disclaimer](#disclaimer)
-- [How to Install](#how-to-install)
-- [Features](#features)
-  - [Creating a datapack template](#creating-a-datapack-template)
-  - [Copy resourcePath](#copy-resourcepath)
-  - [Quick file creation](#quick-file-creation)
-  - [Batch input of multiple lines](#batch-input-of-multiple-lines)
-    - [Strings](#strings)
-    - [Datapack tag](#datapack-tag)
-    - [Consecutive values](#consecutive-values)
-    - [Expression](#expression)
-  - [Converting formulas to score operation](#converting-formulas-to-score-operation)
-- [Recommendations](#recommendations)
-- [Special Thanks](#special-thanks)
-- [Contribution](#contribution)
+For example if there is an image subfolder under your extension project workspace:
 
-# Disclaimer
+\!\[feature X\]\(images/feature-x.png\)
 
-> [MIT license](https://github.com/ChenCMD/MC-Datapack-Utility/blob/master/LICENSE)
+> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-While we do our best to prevent damage to our files, it is possible that under rare, unforeseeable circumstances files may become corrupted.
-We cannot be held responsible when this happens.
+## Requirements
 
-Please back up your important working data at all times. This is very important even if you are not using the MC Datapack Utility.
+If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
-# How to Install
+## Extension Settings
 
-The MC Datapack Utility can be installed from the VSCode Marketplace
-[![Version](https://img.shields.io/visual-studio-marketplace/v/chencmd.mc-datapack-utility?logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=chencmd.mc-datapack-utility)
+Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
-Another way is to press `Ctrl + P` on VSCode and execute `ext install chencmd.mc-datapack-utility`.
+For example:
 
-# Features
-## Creating a datapack template
+This extension contributes the following settings:
 
-Want to make the creation of a datapack easier?
+* `myExtension.enable`: Enable/disable this extension.
+* `myExtension.thing`: Set to `blah` to do something.
 
-Press `Alt + Shift + D -> Alt + Shift + T`.
-This feature makes creating a Datapack easy by simply answering a few questions in a flow.
+## Known Issues
 
-You can also create your own datapack template from config.
+Calling out known issues can help limit users opening duplicate issues against your extension.
 
-![gif](https://raw.githubusercontent.com/ChenCMD/MC-Datapack-Utility/master/images/createDatapackTemplate.gif)
+## Release Notes
 
-## Copy resourcePath
+Users appreciate release notes as you update your extension.
 
-Want to get the resourcePath of a file easily?
+### 1.0.0
 
-Right-click on the file you want to get in Explorer and use `Copy ResourcePath`.
+Initial release of ...
 
-![image](https://raw.githubusercontent.com/ChenCMD/MC-Datapack-Utility/master/images/copyResourcePath_en.png)
+### 1.0.1
 
-## Quick file creation
+Fixed issue #.
 
-Is it too much trouble to write a .mcfunction or .json file every time?
+### 1.1.0
 
-Right-click on the folder of the directory you want to create and use the `Create datapack file`.
-This feature allows you to create a file by just typing in the file name and automatically completing the extension.
+Added features X, Y, and Z.
 
-You can also set the default file contents for each file type from config.
-You can create a file with the contents described by describing it.
+---
 
-![gif](https://raw.githubusercontent.com/ChenCMD/MC-Datapack-Utility/master/images/createFile.gif)
+## Working with Markdown
 
-## Batch input of multiple lines
+You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
-Having trouble describing multiple lines with some regularity?
+* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
+* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
+* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
 
-Press `Alt + Shift + D -> Alt + Shift + M`.
-This function allows you to generate multiple lines at the cursor position by simply answering a few questions.
+## For more information
 
-Depending on your choice, the method of replacing the `%r` in the first question will change. Here are the types
+* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-### Strings
-
-Replace `%r` with any string.
-The input string is interpreted line by line and replaced.
-
-Note that this substitution method behaves differently depending on the number of cursors.
-
-#### Difference in behavior when generating depending on the number of cursors
-
-| Behavior with a single cursor                                           | Behavior with multiple cursors                                                                                                                                                                                                                                             |
-| :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Generate as many input lines as there are starting with the cursor line | If the number of input lines and the number of cursors are different:<br/> input content is generated at each location<br/>If the number of input lines and the number of cursors are the same:<br/> input content is generated one line at a time in the order of cursor placement. |
-
-### Datapack tag
-
-Replace `%r` with the data pack tag `values`.
-
-Note that this substitution method behaves differently depending on the number of cursors.
-
-#### Difference in behavior when generating depending on the number of cursors
-
-| Behavior with a single cursor                                             | Behavior with multiple cursors                                                                                                                                                                                                                                   |
-| :------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Generate as many tag elements as there are, starting with the cursor line | If the number of tag elements and the cursor are different:<br/> a tag element is generated at each location<br/>If the number of tag elements and the cursor are the same:<br/> a tag element is generated one line at a time in the order in which the cursor is placed. |
-
-### Consecutive values
-
-Replace `%r` with a constant, continuous value.
-
-Note: If the `Length to pad the value at the beginning` is `-1`, no prefill is performed.
-
-### Expression
-
-Replace `%r` with the value calculated from the expression.
-`Math.min(<a>,<b>)`, `Math.floor(<a>)`, etc. are available.
-
-Note: If the `Length to pad the value at the beginning` is `-1`, no prefill is performed.
-
-## Converting formulas to score operation
-
-Too much trouble creating a formula in the scoreboard players operation?
-
-Press `Alt + Shift + D -> Alt + Shift + S`.
-If you have a selection, the selection is converted to a `scoreboard players operation`, if not, the expression is converted to a `scoreboard players operation`.
-
-You can also use config to force the default Object and Prefix of the scoreholder and input method of the expression.
-
-![gif](https://raw.githubusercontent.com/ChenCMD/MC-Datapack-Utility/master/images/scoreOperation.gif)
-
-# Recommendations
-
-We recommend using [Datapack Helper Plus](https://marketplace.visualstudio.com/items?itemName=SPGoding.datapack-language-server) when creating Datapack in VSCode.
-
-This extension provides comprehensive support for Datapack and is very useful.
-
-# Special Thanks
-
-Thanks to [Yavu](https://twitter.com/Yavu_8B) for creating the MC Datapack Utility icon/banner.
-I'd like to take this opportunity to thank you.
-
-# Contribution
-
-Please check [CONTRIBUTING.md](CONTRIBUTING.md) if you have any bugs or requests for this extension, or if you want to help translating it into other languages!
+**Enjoy!**
