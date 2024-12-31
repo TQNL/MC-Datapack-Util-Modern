@@ -1,47 +1,48 @@
 {
 	"name": "mc-datapack-utility",
 	"displayName": "MC Datapack Utility",
-	"description": "Extensions that provide multiple features that are useful for developing Minecraft: Java Edition Datapack",
-	"version": "2.1.10",
+	"description": "Extensions that provide multiple features useful for developing Minecraft: Java Edition Datapacks. This is a fork of the original extension by ChenCMD.",
+	"version": "0.0.1",
 	"icon": "icon.png",
 	"categories": [
-		"Other"
+	  "Other"
 	],
 	"keywords": [
-		"minecraft",
-		"datapack",
-		"mcfunction"
+	  "minecraft",
+	  "datapack",
+	  "mcfunction"
 	],
 	"license": "MIT",
 	"publisher": "ChenCMD",
 	"author": "ChenCMD",
 	"contributors": [
-		"t5ugu"
+	  "t5ugu",
+	  "TQNL"
 	],
 	"repository": {
-		"type": "git",
-		"url": "https://github.com/ChenCMD/MC-Datapack-Utility.git"
+	  "type": "git",
+	  "url": "https://github.com/TQNL/MC-Datapack-Util-Modern.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ChenCMD/MC-Datapack-Utility/issues"
+	  "url": "https://github.com/TQNL/MC-Datapack-Util-Modern/issues"
 	},
 	"engines": {
-		"vscode": "^1.75.0"
+	  "vscode": "^1.75.0"
 	},
 	"scripts": {
-		"compile": "webpack --mode development",
-		"build": "webpack --mode production",
-		"watch": "webpack --mode none --watch/",
-		"lint": "eslint --fix src/**/*.ts",
-		"release": "semantic-release"
+	  "compile": "webpack --mode development",
+	  "build": "webpack --mode production",
+	  "watch": "webpack --mode none --watch/",
+	  "lint": "eslint --fix src/**/*.ts",
+	  "release": "semantic-release"
 	},
 	"main": "dist/extension.js",
 	"dependencies": {
-		"@octokit/rest": "^18.5.3",
-		"dateformat": "^3.0.3",
-		"minimatch": "^3.0.4",
-		"rfdc": "^1.3.0"
-	},
+	  "@octokit/rest": "^18.5.3",
+	  "dateformat": "^3.0.3",
+	  "minimatch": "^3.0.4",
+	  "rfdc": "^1.3.0"
+	},  
 	"activationEvents": [
 		"workspaceContains:**/pack.mcmeta"
 	],
