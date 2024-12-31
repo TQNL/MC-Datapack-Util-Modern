@@ -13,7 +13,7 @@
 		"mcfunction"
 	],
 	"license": "MIT",
-	"publisher": "ChenCMD",
+	"publisher": "TQNL",
 	"author": "ChenCMD",
 	"contributors": [
 		"t5ugu"
@@ -804,7 +804,7 @@
 		"ts-loader": "^8.2.0",
 		"typescript": "^5.5.3",
 		"vscode-test": "^1.5.2",
-		"webpack": "^5.36.2",
-		"webpack-cli": "^4.7.0"
+		"webpack": "^5.97.1",
+		"webpack-cli": "^6.0.1"
 	}
 }
