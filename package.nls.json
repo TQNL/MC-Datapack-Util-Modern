@@ -22,7 +22,7 @@
     "mcdutil.config.createDatapackTemplate.customTemplate.generates.type": "file or folder",
     "mcdutil.config.createDatapackTemplate.customTemplate.label": "The name displayed in the selection field",
     "mcdutil.config.createDatapackTemplate.customTemplate.picked": "Whether it is selected by default (default: false)",
-    "mcdutil.config.createDatapackTemplate.defaultFolder": "Whether or not to display the templates of `advancements/`, `loot_tables/` etc. on the selection screen",
+    "mcdutil.config.createDatapackTemplate.defaultFolder": "Whether or not to display the templates of `advancement/`, `loot_table/` etc. on the selection screen",
     "mcdutil.config.createDatapackTemplate.defaultLoadAndTick": "Whether or not to display the `#load` and `#tick` templates on the selection screen",
     "mcdutil.config.createDatapackTemplate.defaultVanillaData": "Whether to display the vanilla `tags/~` template on the selection screen",
     "mcdutil.config.createFile.fileTemplate": "**Create Datapack file**: Contents described when the file is generated (can be set for each file type)",

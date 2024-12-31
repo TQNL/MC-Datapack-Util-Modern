@@ -26,7 +26,7 @@ export const pickItems: { [key in '#load & #tick' | 'Vanilla data' | 'Folders']:
             generates: [
                 {
                     type: 'file',
-                    rel: 'data/minecraft/tags/functions/load.json',
+                    rel: 'data/minecraft/tags/function/load.json',
                     content: {
                         values: [
                             '%namespace%:load'
@@ -39,7 +39,7 @@ export const pickItems: { [key in '#load & #tick' | 'Vanilla data' | 'Folders']:
                 },
                 {
                     type: 'file',
-                    rel: 'data/%namespace%/functions/load.mcfunction',
+                    rel: 'data/%namespace%/function/load.mcfunction',
                     content: []
                 }
             ]
@@ -50,7 +50,7 @@ export const pickItems: { [key in '#load & #tick' | 'Vanilla data' | 'Folders']:
             generates: [
                 {
                     type: 'file',
-                    rel: 'data/minecraft/tags/functions/tick.json',
+                    rel: 'data/minecraft/tags/function/tick.json',
                     content: {
                         values: [
                             '%namespace%:tick'
@@ -63,7 +63,7 @@ export const pickItems: { [key in '#load & #tick' | 'Vanilla data' | 'Folders']:
                 },
                 {
                     type: 'file',
-                    rel: 'data/%namespace%/functions/tick.mcfunction',
+                    rel: 'data/%namespace%/function/tick.mcfunction',
                     content: []
                 }
             ]
@@ -71,53 +71,53 @@ export const pickItems: { [key in '#load & #tick' | 'Vanilla data' | 'Folders']:
     ],
     'Vanilla data': [
         {
-            label: 'All Vanilla tags/blocks',
+            label: 'All Vanilla tags/block',
             generates: [],
             func: [
                 {
                     owner: 'misode',
                     repo: 'mcmeta',
                     ref: '%version%-data',
-                    path: 'data/minecraft/tags/blocks',
+                    path: 'data/minecraft/tags/block',
                     rel: (data: ReposGetContentResponseData): string => data.path
                 }
             ]
         },
         {
-            label: 'All Vanilla tags/entity_types',
+            label: 'All Vanilla tags/entity_type',
             generates: [],
             func: [
                 {
                     owner: 'misode',
                     repo: 'mcmeta',
                     ref: '%version%-data',
-                    path: 'data/minecraft/tags/entity_types',
+                    path: 'data/minecraft/tags/entity_type',
                     rel: (data: ReposGetContentResponseData): string => data.path
                 }
             ]
         },
         {
-            label: 'All Vanilla tags/fluids',
+            label: 'All Vanilla tags/fluid',
             generates: [],
             func: [
                 {
                     owner: 'misode',
                     repo: 'mcmeta',
                     ref: '%version%-data',
-                    path: 'data/minecraft/tags/fluids',
+                    path: 'data/minecraft/tags/fluid',
                     rel: (data: ReposGetContentResponseData): string => data.path
                 }
             ]
         },
         {
-            label: 'All Vanilla tags/items',
+            label: 'All Vanilla tags/item',
             generates: [],
             func: [
                 {
                     owner: 'misode',
                     repo: 'mcmeta',
                     ref: '%version%-data',
-                    path: 'data/minecraft/tags/items',
+                    path: 'data/minecraft/tags/item',
                     rel: (data: ReposGetContentResponseData): string => data.path
                 }
             ]
@@ -125,20 +125,20 @@ export const pickItems: { [key in '#load & #tick' | 'Vanilla data' | 'Folders']:
     ],
     'Folders': [
         {
-            label: 'data/%namespace%/advancements/',
+            label: 'data/%namespace%/advancement/',
             generates: [
                 {
                     type: 'folder',
-                    rel: 'data/%namespace%/advancements/'
+                    rel: 'data/%namespace%/advancement/'
                 }
             ]
         },
         {
-            label: 'data/%namespace%/functions/',
+            label: 'data/%namespace%/function/',
             generates: [
                 {
                     type: 'folder',
-                    rel: 'data/%namespace%/functions/'
+                    rel: 'data/%namespace%/function/'
                 }
             ]
         },
@@ -161,74 +161,74 @@ export const pickItems: { [key in '#load & #tick' | 'Vanilla data' | 'Folders']:
             ]
         },
         {
-            label: 'data/%namespace%/loot_tables/',
+            label: 'data/%namespace%/loot_table/',
             generates: [
                 {
                     type: 'folder',
-                    rel: 'data/%namespace%/loot_tables/'
+                    rel: 'data/%namespace%/loot_table/'
                 }
             ]
         },
         {
-            label: 'data/%namespace%/predicates/',
+            label: 'data/%namespace%/predicate/',
             generates: [
                 {
                     type: 'folder',
-                    rel: 'data/%namespace%/predicates/'
+                    rel: 'data/%namespace%/predicate/'
                 }
             ]
         },
         {
-            label: 'data/%namespace%/recipes/',
+            label: 'data/%namespace%/recipe/',
             generates: [
                 {
                     type: 'folder',
-                    rel: 'data/%namespace%/recipes/'
+                    rel: 'data/%namespace%/recipe/'
                 }
             ]
         },
         {
-            label: 'data/%namespace%/tags/blocks/',
+            label: 'data/%namespace%/tags/block/',
             generates: [
                 {
                     type: 'folder',
-                    rel: 'data/%namespace%/tags/blocks/'
+                    rel: 'data/%namespace%/tags/block/'
                 }
             ]
         },
         {
-            label: 'data/%namespace%/tags/entity_types/',
+            label: 'data/%namespace%/tags/entity_type/',
             generates: [
                 {
                     type: 'folder',
-                    rel: 'data/%namespace%/tags/entity_types/'
+                    rel: 'data/%namespace%/tags/entity_type/'
                 }
             ]
         },
         {
-            label: 'data/%namespace%/tags/fluids/',
+            label: 'data/%namespace%/tags/fluid/',
             generates: [
                 {
                     type: 'folder',
-                    rel: 'data/%namespace%/tags/fluids/'
+                    rel: 'data/%namespace%/tags/fluid/'
                 }
             ]
         },
         {
-            label: 'data/%namespace%/tags/functions/',
+            label: 'data/%namespace%/tags/function/',
             generates: [
                 {
                     type: 'folder',
-                    rel: 'data/%namespace%/tags/functions/'
+                    rel: 'data/%namespace%/tags/function/'
                 }
             ]
         },
         {
-            label: 'data/%namespace%/tags/items/',
+            label: 'data/%namespace%/tags/item/',
             generates: [
                 {
                     type: 'folder',
-                    rel: 'data/%namespace%/tags/items/'
+                    rel: 'data/%namespace%/tags/item/'
                 }
             ]
         }

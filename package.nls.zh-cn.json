@@ -35,7 +35,7 @@
     "mcdutil.config.scoreOperation.valueScale": "**公式转换为记分板操作**：值的缩放（\"输入的值\"乘以\"缩放比率\"等于\"计算结果\"）",
     "mcdutil.config.env.detectionDepth": "数据包根目录检测深度限制",
     "mcdutil.config.env.dataVersion": "使用的原版数据版本",
-    "mcdutil.config.createDatapackTemplate.defaultFolder": "是否在选择的屏幕上显示`advancements/`和`loot_tables/`等的模板",
+    "mcdutil.config.createDatapackTemplate.defaultFolder": "是否在选择的屏幕上显示`advancement/`和`loot_table/`等的模板",
     "mcdutil.config.createDatapackTemplate.customTemplate.generates.content-str": "字符串（基本上一项会被解释为一行）",
     "mcdutil.config.createDatapackTemplate.customTemplate.generates.content-obj": "对象的值已经按原样保存到文件中。",
     "mcdutil.config.createDatapackTemplate.customTemplate.customQuestion.question": "问题",
