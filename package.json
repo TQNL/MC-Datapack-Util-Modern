@@ -1,8 +1,8 @@
 {
-	"name": "mc-datapack-utility",
-	"displayName": "MC Datapack Utility",
-	"description": "Extensions that provide multiple features that are useful for developing Minecraft: Java Edition Datapack",
-	"version": "2.1.10",
+	"name": "mc-datapack-util-modern",
+	"displayName": "MC Datapack Util Modern Fork",
+	"description": "Fork of 'MC Datapack Utility' by TQNL, for 1.21 Data Pack registry names. Extensions that provide multiple features that are useful for developing Minecraft: Java Edition Datapack",
+	"version": "0.0.1",
 	"icon": "icon.png",
 	"categories": [
 		"Other"
@@ -20,10 +20,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ChenCMD/MC-Datapack-Utility.git"
-	},
-	"bugs": {
-		"url": "https://github.com/ChenCMD/MC-Datapack-Utility/issues"
+		"url": "https://github.com/TQNL/MC-Datapack-Util-Modern.git"
 	},
 	"engines": {
 		"vscode": "^1.75.0"
