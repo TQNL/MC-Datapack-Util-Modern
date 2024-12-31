@@ -1,6 +1,6 @@
 {
 	"name": "mc-datapack-util-modern",
-	"displayName": "MC Datapack Util Modern Fork",
+	"displayName": "MC Datapack Utility 1.21 Fork",
 	"description": "Fork of 'MC Datapack Utility' by TQNL, for 1.21 Data Pack registry names. Extensions that provide multiple features that are useful for developing Minecraft: Java Edition Datapack",
 	"version": "0.0.1",
 	"icon": "icon.png",
